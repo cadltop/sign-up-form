@@ -18,6 +18,10 @@ body {
     top: -50px;
     color: #ffffff;
 }
+a {
+    color: #ffffff;
+}
+
 .logo {     
     height: 100px;
     width: auto;
