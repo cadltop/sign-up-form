@@ -8,11 +8,21 @@ body {
     font-family: philosopher;
 }
 
-.images, .car {
+.car {
     height: 100vh;
     width: auto;
+}
+.credit {
+    position: relative;
+    text-align: center;
+    top: -50px;
+    color: #ffffff;
 }
 .logo {     
     height: 100px;
     width: auto;
+    position: relative;
+    top: -500px;
+    left: 225px;
+    background-color: #00000086;
 }
