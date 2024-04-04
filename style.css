@@ -2,13 +2,13 @@
     font-family: philosopher;
     src: url(./resources/Philosopher-Regular.ttf)
 }
-
 body {
     display: flex;
     font-family: philosopher;
 }
 
-.car {
+
+.images, .car {
     height: 100vh;
     width: auto;
 }
@@ -35,4 +35,12 @@ a {
     position: relative;
     left: 200px;
     top: 40px;
+}
+
+.info {
+    justify-self: center;
+    align-self: center;
+}
+.info > div, .info > form {
+    margin-bottom: 50px;
 }
