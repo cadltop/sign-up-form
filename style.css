@@ -22,11 +22,17 @@ a {
     color: #ffffff;
 }
 
-.logo {     
-    height: 100px;
+.logo-bg-img {
+    height: 200px;
     width: auto;
     position: relative;
-    top: -500px;
-    left: 225px;
-    background-color: #00000086;
+    top: -750px;
+    background-color: #292929bd;
+}
+.logo {     
+    height: 125px;
+    width: auto;
+    position: relative;
+    left: 200px;
+    top: 40px;
 }
