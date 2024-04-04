@@ -38,8 +38,8 @@ a {
 }
 
 .info {
-    justify-self: center;
     align-self: center;
+    margin-left: 125px;
 }
 .info > div, .info > form {
     margin-bottom: 50px;
