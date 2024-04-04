@@ -1,0 +1,11 @@
+body {
+    display: flex;
+}
+.images, .car {
+    height: 100vh;
+    width: auto;
+}
+.logo {     
+    height: 100px;
+    width: auto;
+}
