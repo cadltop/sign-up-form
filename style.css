@@ -1,6 +1,13 @@
+@font-face {
+    font-family: philosopher;
+    src: url(./resources/Philosopher-Regular.ttf)
+}
+
 body {
     display: flex;
+    font-family: philosopher;
 }
+
 .images, .car {
     height: 100vh;
     width: auto;
