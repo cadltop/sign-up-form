@@ -39,6 +39,7 @@ a {
 .info {
     align-self: center;
     margin-left: 75px;
+    width: 1125px;
 }
 .info > div, .info > form {
     margin-bottom: 50px;
@@ -48,6 +49,12 @@ a {
     font-size: 30px;
     font-weight: bold;
 }
-form {
+form > * {
+    display: flex;
+    margin-bottom: 30px;
+}
+form > div > div {
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
 }
