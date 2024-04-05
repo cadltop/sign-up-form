@@ -79,6 +79,10 @@ input {
     height: 1.7em;
     width: 150%;
 }
+input:focus {
+    outline-color: #007acc;
+}
+
 .footer {
     margin-bottom: 15px;
     font-size: 20px;
