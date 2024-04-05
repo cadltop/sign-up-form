@@ -61,7 +61,7 @@ form {
 form > * {
     display: flex;
     margin-bottom: 30px;
-    gap: 200px;
+    gap: 150px;
 }
 form > div > div {
     font-size: 18px;
@@ -77,7 +77,7 @@ input {
     border-radius: 5px;
     border: solid #d4d4d4 1px;
     height: 1.7em;
-    width: 150%;
+    width: 350px;
 }
 input:focus {
     outline-color: #007acc;
@@ -88,6 +88,10 @@ input:invalid {
 }
 .password:valid {
     outline-color: green;
+}
+.row-3 div:first-child::after {
+    content: "* Passwords do not match";
+    color: red; 
 }
 .footer {
     margin-bottom: 15px;
