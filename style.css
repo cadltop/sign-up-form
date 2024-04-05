@@ -5,8 +5,7 @@
 body {
     display: flex;
     font-family: philosopher;
-}
-
+} 
 
 .images, .car {
     height: 100vh;
@@ -39,8 +38,16 @@ a {
 
 .info {
     align-self: center;
-    margin-left: 125px;
+    margin-left: 75px;
 }
 .info > div, .info > form {
     margin-bottom: 50px;
+}
+
+.header, legend {
+    font-size: 30px;
+    font-weight: bold;
+}
+form {
+    font-size: 20px;
 }
