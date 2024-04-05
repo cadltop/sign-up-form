@@ -81,6 +81,7 @@ input {
 }
 input:focus {
     outline-color: #007acc;
+    box-shadow: 0px 3px 5px #4747474d;
 }
 input:invalid {
     outline-color: red;
