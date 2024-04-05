@@ -50,18 +50,25 @@ a {
     font-weight: bold;
     color: #313131;
 }
+
 form > * {
     display: flex;
     margin-bottom: 30px;
-    gap: 100px;
+    gap: 200px;
 }
 form > div > div {
     font-size: 20px;
     display: flex;
     flex-direction: column;
 }
-
 label {
     font-weight: 600;
     color: #474747;
+    letter-spacing: 0.1em;
+}
+input {
+    border-radius: 5px;
+    border: solid #d4d4d4 1px;
+    height: 1.7em;
+    width: 150%;
 }
