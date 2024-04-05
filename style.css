@@ -51,6 +51,9 @@ body {
     color: #313131;
 }
 
+form {
+    box-shadow: 0px 2px 10px #4747474d;
+}
 form > * {
     display: flex;
     margin-bottom: 30px;
@@ -72,8 +75,8 @@ input {
     height: 1.7em;
     width: 150%;
 }
-.footer > * {
-    margin-bottom: 20px;
+.footer {
+    margin-bottom: 15px;
     font-size: 20px;
 }
 button {
