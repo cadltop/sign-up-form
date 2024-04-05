@@ -82,7 +82,12 @@ input {
 input:focus {
     outline-color: #007acc;
 }
-
+input:invalid {
+    outline-color: red;
+}
+.password:valid {
+    outline-color: green;
+}
 .footer {
     margin-bottom: 15px;
     font-size: 20px;
