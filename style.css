@@ -4,7 +4,7 @@
 }
 body {
     display: flex;
-    font-family: philosopher;
+    font-family: philosopher, Verdana, Geneva, Tahoma, sans-serif;
 } 
 
 .images, .car {
@@ -17,7 +17,7 @@ body {
     top: -50px;
     color: #ffffff;
 }
-a {
+.images > .credit > a {
     color: #ffffff;
 }
 
@@ -71,4 +71,22 @@ input {
     border: solid #d4d4d4 1px;
     height: 1.7em;
     width: 150%;
+}
+.footer > * {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+button {
+    color: #ffffff;
+    background-color: #007acc;
+    font-weight: 700;
+    padding: 15px 65px;   
+    border-radius: 7px;
+    border: none;
+}
+
+p > a {
+    color: #007acc;
+    font-weight: 600;
+    text-decoration: none;
 }
