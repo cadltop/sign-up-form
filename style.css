@@ -86,7 +86,7 @@ input:focus {
 input:invalid {
     outline-color: red;
 }
-.password:valid {
+#password:valid {
     outline-color: green;
 }
 
