@@ -12,7 +12,8 @@ createAccountBtn.addEventListener('click', () => {
         lastName = document.querySelector('#last-name').value;
         email = document.querySelector('#email').value;
         phoneNumber = document.querySelector('#phone-number').value;
-        
+        alert("You are Signed Up!");
+
         if (document.querySelector('.row-3 div:first-child').lastElementChild.innerHTML === errorMessage.innerHTML){
             document.querySelector('.row-3 div:first-child').removeChild(errorMessage);
         }
