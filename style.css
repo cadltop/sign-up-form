@@ -89,10 +89,7 @@ input:invalid {
 .password:valid {
     outline-color: green;
 }
-.row-3 div:first-child::after {
-    content: "* Passwords do not match";
-    color: red; 
-}
+
 .footer {
     margin-bottom: 15px;
     font-size: 20px;
